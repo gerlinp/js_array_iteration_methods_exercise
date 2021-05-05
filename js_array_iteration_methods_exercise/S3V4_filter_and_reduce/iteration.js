@@ -8,3 +8,10 @@ const products = [
 ];
 
     // Result: { name: 'paper towels', price: 6.99 }
+
+const total = products
+  .filter(product => product.price > 10)
+  .reduce((sum, product) => sum + product.price, 0)
+  .toFixed(2);
+
+  console.log(total);
