@@ -30,3 +30,4 @@ const books = users
   .reduce((arr, titles) => [...arr, ...titles], []);
 
   console.log(books);
+  console.group(users);
