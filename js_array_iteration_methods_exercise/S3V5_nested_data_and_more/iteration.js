@@ -31,3 +31,17 @@ const books = users
 
   console.log(books);
   console.group(users);
+
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  let noel = [];
+  
+  // noel should be: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+  // Write your code below
+  
+  alphabet.forEach(letter => {
+    if (letter !== 'L') {
+      noel.push(letter)
+    }
+  });
+  
+
